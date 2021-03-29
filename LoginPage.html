@@ -9,7 +9,7 @@
     <div class="content-container">
         <div class="form-container">
             <img class="wlc-logo" src="resources/wlc_logo_white.jpg"/>
-            <form class="login-form">
+            <form name="loginform" class="login-form">
                 <div class="login-div">
                     <label  for="login">Login</label>
                     <input id="login" type="text" name="login"/>
@@ -17,13 +17,14 @@
                     
                 <div class="password-div">
                     <label for="password">Password</label>
-                    <input type="password" name="password"/>
+                    <input id="password" type="password" name="password"/>
                 </div>
                 <div class="buttons-container">
-                    <button type="button">Login</button>
+                    <button id="loginButton" type="button">Login</button>
                     <button type="button" onclick="document.location='RegistrationPage.html'">Register</button>
                 </div>
             </form>
     </div>
     </div>
+    <script src="src/Login.js"></script>
 </body>

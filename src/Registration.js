@@ -1,8 +1,8 @@
 document.getElementById('submit').addEventListener('click', function() {
-    const login = document.loginform.login.value;
-    const email = document.loginform.email.value;
-    const password = document.loginform.password.value;
-    const cpassword = document.loginform.cpassword.value;
+    const login = document.registerform.login.value;
+    const email = document.registerform.email.value;
+    const password = document.registerform.password.value;
+    const cpassword = document.registerform.cpassword.value;
 
     if(typeof(Storage) !== undefined){
         if(password != cpassword){
