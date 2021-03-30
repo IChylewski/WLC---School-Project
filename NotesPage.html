@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+    <title>Notes Page</title>
+    <link href="styles/NotesPageStyle.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+</head>
+<body>
+    <div class="content-container">
+        <h1>Notes</h1>
+        <div id="notes-container" class="notes"><p id="notes-space"></p></div>
+        <textarea id="notes-input" rows="20" name='notes-input'></textarea>
+        <div class="buttons-container">
+            <button type="button" onclick="document.location='WelcomePage.html'">Back</button>
+            <button id="editButton" type="button">Edit</button>
+            <button id="saveButton" type="button">Save</button>
+        </div>
+        
+    </div>
+    <script src="src/Notes.js"></script>
+</body>

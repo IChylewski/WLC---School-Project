@@ -1,7 +1,5 @@
 body { 
-    background-image: url('../resources/background_image.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #f8f8fa;
 }
 html, body { 
     margin: 0;
@@ -16,6 +14,12 @@ html, body {
     align-items: center;
 
 }
+h1 {
+    color: #e32991;
+ 
+    font-weight: bold;
+    font-family: 'Lato';
+}
 .form-container {
     height: 100%;
     width: 70%;
@@ -26,29 +30,24 @@ html, body {
 
 }
 .login-form {
-    display:flex;
+    display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-}
-.wlc-logo {
-    height: 10rem;
-    width: 20rem;
-    border-radius: 20px;
+    width: 100%;
 }
 input {
-    margin: 2rem;
+    margin: 1.5rem 0 1rem 0;
     border-radius: 3px;
     padding: 0.3rem;
 }
 label {
+    display: inline-flex;
     color: #003669;
     font-size: 1.5rem;
     font-weight: bold;
     font-family: 'Lato';
-}
-#login {
-    margin-left: 5rem;
+    width: 8rem;
 }
 .buttons-container {
     display: flex;
@@ -65,4 +64,9 @@ label {
     background-color: #e32991;
     color: white;
     cursor: pointer;
+}
+.login-form div {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }

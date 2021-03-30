@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <title>Planner Page</title>
+    <link href="styles/PlannerPageStyle.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+</head>
+<body>
+    <div class="content-container">
+        <div class="table-container">
+            <h1>Planner</h1>
+            <h3>Click on planner to edit</h3>
+            <table id="mytable">
+                <tr>
+                    <th class="date-cell">Date</th>
+                    <th class="event-cell">Event</th>
+                </tr>
+                <tr>
+                    <td contenteditable id="date1"></td>
+                    <td contenteditable id="event1"></td>
+                </tr>
+                    <td contenteditable id="date2"></td>
+                    <td contenteditable id="event2"></td>
+                </tr>
+                <tr>
+                    <td contenteditable id="date3"></td>   
+                    <td contenteditable id="event3"></td> 
+                </tr>
+                <tr>
+                    <td contenteditable id="date4"></td>
+                    <td contenteditable id="event4"></td>
+                </tr>
+                <tr>
+                    <td contenteditable id="date5"></td>
+                    <td contenteditable id="event5"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="button-container">
+            <button type="button" onclick="document.location='WelcomePage.html'">Back</button>
+            <button id="clearButton" type="button" >Clear</button>
+        </div>
+    </div>
+    <script src="src/Planner.js"></script>
+</body>

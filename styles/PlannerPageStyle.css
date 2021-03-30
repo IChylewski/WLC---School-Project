@@ -1,0 +1,83 @@
+body { 
+    background-color: #f8f8fa;
+}
+html, body { 
+    margin: 0;
+    min-height: 100%;
+}
+.content-container {
+    height: 100%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.table-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    color: #003669;
+    font-weight: bold;
+    font-family: 'Lato';
+    margin: 3rem;
+}
+h3 {
+    color: #003669;
+    font-weight: bold;
+    font-family: 'Lato';
+    margin: 1rem;
+}
+
+table, td, tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: white;
+    color: #191717;
+    font-family: 'Roboto';
+    text-align: center;
+}
+.id-cell {
+    height: 3rem;
+    width: 3rem;
+    color: #003669;
+    font-weight: bold;
+    font-family: 'Lato';
+}
+.date-cell {
+    width: 8rem;
+    color: #003669;
+    font-weight: bold;
+    font-family: 'Lato';
+}
+.event-cell {
+    width: 20rem;
+    color: #003669;
+    font-weight: bold;
+    font-family: 'Lato';
+}
+td {
+    height: 5rem;
+}
+button {
+    margin: 1.5rem;
+    padding: 0.8rem;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: #e32991;
+    color: white;
+    cursor: pointer;
+}
+.buttons-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

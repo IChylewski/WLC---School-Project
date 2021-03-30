@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <title>Welcome Page</title>
+    <link href="styles/WelcomePageStyle.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+</head>
+<body>
+    <div class="content-container">
+        <div class="menu-container">
+            <h1>Welcome</h1>
+            <h2 id="name"></h2>
+            
+            <div class="item-container">
+                <span>Notes</span>
+                <a href="NotesPage.html"><img class="icon" src="resources/notes_icon.jpg"></a>
+            </div>
+            <div class="item-container">
+                <span>Timetable</span>
+                <a href="TimetablePage.html"><img class="icon" src="resources/timetable_icon.png"></a>
+            </div>
+            <div class="item-container">
+                <span>Planner</span>
+                <a href="PlannerPage.html"><img class="icon" src="resources/planner_icon.png"></a>
+            </div>
+            <button type="button" onclick="document.location='LoginPage.html'">Back</button>
+        </div>
+    </div>
+    <script src="src/WelcomePage.js"></script>
+</body>
